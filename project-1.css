@@ -7,6 +7,7 @@
 }
 body {
     font-family: Lato;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -248,3 +249,244 @@ section {
 
 /* thard page section closed */
 
+/* four page top section start */
+
+.four-page-top-head {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.four-page-top-head h1 {
+    color: rgb(0, 89, 255);
+    font-size: 35px;
+}
+
+/* four page top section closed */
+
+/* four page nav and image section start */
+
+.four-page-nav-bar {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.four-page-nav-bar li {
+    display: inline-block;
+}
+.four-page-nav-bar li a {
+    color: black;
+    font-weight: bold;
+}
+li + li {
+    padding-left: 50px;
+}
+.four-page-image {
+    margin-top: 100px;
+}
+.four-page-image img {
+    margin-right: -4px;
+    margin-top: -4px;
+}
+
+/* four page nav and image section closed */
+
+/* five page top section start */
+
+.five-page-top {
+    margin-top: 150px;
+}
+.five-page-top-head {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.five-page-top-head h1 {
+    color: rgb(0, 89, 255);
+    font-size: 35px;
+}
+
+/* five page top section closed */
+
+/* five page image section start */
+
+.five-page-image{
+    margin-top: 100px;
+    text-align: center;
+}
+.five-page-image img {
+    width: 280px;
+    height: 300px;
+}
+.five-page-col-1 {
+    width: 20%;
+}
+.five-page-col-2 {
+    width: 15%;
+    margin: 20px;
+}
+.five-page-col-2 h3 {
+    margin-top: 10px;
+}
+.five-page-col-2 p {
+    margin-top: 5px;
+}
+.five-page-col-3 {
+    width: 15%;
+    margin: 20px;
+} 
+.five-page-col-3 h3 {
+    margin-top: 10px;
+}
+.five-page-col-3 p {
+    margin-top: 5px;
+}
+.five-page-col-4 {
+    width: 15%;
+    margin: 20px;
+}
+.five-page-col-4 h3 {
+    margin-top: 10px;
+}
+.five-page-col-4 p {
+    margin-top: 5px;
+}
+.five-page-col-5 {
+    width: 15%;
+    margin: 20px;
+}
+.five-page-col-5 h3 {
+    margin-top: 10px;
+}
+.five-page-col-5 p {
+    margin-top: 5px;
+}
+.five-page-col-6 {
+    width: 20%;
+}
+
+/* five page image section closed */
+
+/* six page section start */
+
+.six-page {
+    background-image: url(./project-1/Rectangle\ 8\ \(1\).png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -200px;
+}
+.six-page-head {
+    color: rgb(0, 89, 255);
+    width: 100%;
+    height: 100px;
+    margin-left: 800px;
+    display: inline-block;
+    margin-top: 250px;
+}
+.six-page-head img {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.six-page-col-1 {
+    width: 20%;
+}
+.six-page-col-2 {
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.six-page-col-3 {
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 200px
+} 
+.six-page-col-4 {
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 200px
+}
+.six-page-col-5 {
+    width: 15%;
+    margin-left: 100px;
+    margin-top: 200px
+}
+.six-page-col-6 {
+    width: 20%;
+}
+
+/* six page section closed */
+
+/* seven page top section start */
+
+.five-page-top {
+    margin-top: 150px;
+}
+.five-page-top-head {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.five-page-top-head h1 {
+    color: rgb(0, 89, 255);
+    font-size: 35px;
+}
+
+.map-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+}
+
+/* seven page top section closed */
+
+/* footer section start */
+
+footer {
+    height: 300px;
+    display: flex;
+    background-color: black;
+    padding-top: 100px;
+}
+.footer-col-1 {
+    width: 15%;
+}
+.footer-col-2 {
+    width: 30%;
+    color: #fff;
+    line-height: 30px;
+}
+.footer-col-2 span {
+    color: rgb(0, 89, 255);
+}
+.footer-col-3 {
+    width: 25%;
+    color: #fff;
+    line-height: 30px;
+}
+.footer-col-3 input {
+    border: 2px solid #fff;
+    background-color: black;
+    height: 40px;
+    width: 250px;
+}
+.footer-col-3 p {
+    padding-top: 20px;
+}
+.footer-col-4 {
+    width: 30%;
+    display: flex;
+    color: #fff;
+}
+.explore {
+    width: 30%;
+    margin-top: 60px;
+    margin-left: -80px;
+}
+.explore-1 {
+    margin-top: 60px;
+}
+
+
+
+/* footer section closed */
